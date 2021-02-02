@@ -1,6 +1,8 @@
 package com.celsoaquino.chess;
 
-public class ChessException extends RuntimeException {
+import com.celsoaquino.boardgame.BoardException;
+
+public class ChessException extends BoardException {
 
     public ChessException(String message) {
         super(message);
